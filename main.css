@@ -1,0 +1,114 @@
+img,embed,object,video{
+  max-width: 100%;
+}
+/*formats the horizontal line  */
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+/*Formats my name  */
+h1{
+  font-family: arial;
+  text-align: right;
+}
+/*Formats the Featured title
+  color: #7d97ad;
+  font-family:arial;
+}
+/*Formats title under my name  */
+h3{
+  text-align: right;
+}
+body{
+  background: linear-gradient(white,lightgray);
+}
+/*Container for the header that has logo and myinfo in it.  */
+header{
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo{
+  width:20%;
+  margin-top: 1em;
+
+}
+/*My name and title  */
+.myinfo{
+  width:20%;
+  margin-left: auto;
+
+}
+.main_image{
+  width: 100%;
+  margin-left:5%;
+  margin-right: auto;
+}
+/*Sets up how the contianer for the featured work looks  */
+.featured{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+.myarticle{
+  font-size: 1.5em;
+}
+/*this is the title of the projects in the featured area  */
+.mycaption{
+  font-size: 2em;
+}
+.one{
+  margin-left: 15%;
+  width:20%;
+
+
+}
+.two{
+  margin-top: 10%;
+  width:20%;
+
+}
+.three{
+  margin-top: 5%;
+  width: 20%;
+
+}
+/*  Breakpoint  reformats for smaller screens*/
+@media screen and (max-width:500px){
+  .main_image{
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  .featured{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .myinfo{
+    margin-right:15px;
+    width: 40%;
+  }
+  .myarticle{
+    font-size: 1.5em;
+  }
+  .mycaption{
+    font-size: 2em;
+  }
+  .one{
+    width:100vw;
+    margin-top: 1em;
+  }
+  .two{
+    width:100vw;
+  }
+  .three{
+    width: 100vw;
+  }
+  h3{
+    font-size: .75em;
+  }
+}
