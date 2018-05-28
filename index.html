@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- This site's initial design is based on project rubric from the Udacity FRONT END Web Development Nano Degree
+      the coding and structure is based on what was learned in that course along with research from MDN, google, etc.
+      To the best of my knowledge, no code was copied directly from any source. -->
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>A Portfolio by Marty</title>
+  <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+  <header>
+    <!--I don't really have a logo so I used Inkscape to create one for now.  -->
+    <div class="logo">
+      <img src="images/mls.svg" alt="MLS">
+    </div>
+    <div class="myinfo"><h1>MARTY SCHAUB</h1>
+      <h3>FRONT-END DEVELOPER</h3>
+    </div>
+  </header>
+  <!--The hr below creates a horizontal line across the page  -->
+  <hr>
+<!-- The main image was created by taking a screen shot of the code for this site and then
+     layering it criss cross over itself. I used Inkscape to do this. -->
+  <figure class="main_image">
+    <img src="images/drawing.svg" alt="Coding">
+  </figure>
+<!-- A little about the site -->
+  <article class="myarticle"><p>Welcome to my portfolio site.</p>
+    <p>This is a work in progress. I will be adding new stuff and updating things constantly.</p>
+    <p>Be sure to check back frequently to see what's new.</p>
+    <p>Have suggestions for improvement or just general feedback? Let me know: marty.schaub@gmail.com</p>
+  </article>
+<!-- Work with small images to showcase some of what I have done. This section will
+     continue to grow. -->
+  <h2>Featured Work</h2>
+  <div class="featured">
+  <!--Tis is the first project done for the Udacity Nano Degree. It was started with a shell and we had to customize it.  -->
+    <figure class="image one">
+      <picture>
+        <source media="(min-width: 650px)" srcset="images/Animal_card_med.jpg">
+        <source media="(max-width: 465px)" srcset="images/Animal_card_tiny.jpg">
+        <img src="images/Animal_card.jpg" alt="Gray Wolf">
+      </picture>
+      <figcaption><span class="mycaption">Animal Trading Card</span></figcaption>
+      <figcaption><a href="https://codepen.io/marty_schaub/full/NyMEqX/">Link to Codepen</a></figcaption>
+      <figcaption>https://github.com/Marty-Schaub/animal_trading_card</figcaption>
+    </figure>
+
+    <figure class="image two">
+      <picture>
+        <source media="(min-width: 650px)" srcset="images/Pixel_art_small.jpg">
+        <source media="(max-width: 465px)" srcset="images/Pixel_art_tiny.jpg">
+        <img src="images/Pixel_art.jpg" alt="Pixel Art Maker">
+      </picture>
+      <figcaption ><span class="mycaption">Pixel Art Maker</span></figcaption>
+      <!--Place holder for future reference to Github  -->
+      <figcaption></figcaption>
+    </figure>
+
+    <figure class="image three">
+      <picture>
+        <img src="images/Under_Construction.svg" alt="Under Under_Construction">
+      </picture>
+      <figcaption><span class="mycaption">Classic Memory Game</span></figcaption>
+      <figcaption>Coming Soon!</figcaption>
+    </figure>
+
+  </div>
+
+
+</body>
+
+</html>
